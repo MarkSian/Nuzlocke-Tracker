@@ -68,8 +68,7 @@ pid: is the Pokemon's unique ID. This is in the case there will be duplicates of
   runs: [{
     type: Schema.Types.ObjectId,
     ref: 'Nuzlocke'
-  }]
-});
+  }];
 
 ### models/Pokemon.js
   pokemonId: { 
